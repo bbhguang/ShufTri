@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "artifact": "ShufTri PSI experiments",
+  "datasets": ["enron", "facebook"],
+  "contents": {
+    "algorithm_sources": true,
+    "ristretto255_psi_source": true,
+    "preprocessing_and_experiment_driver": true,
+    "statistical_aggregation": true,
+    "fixed_public_seeds": true,
+    "input_edge_tables": true,
+    "microbenchmark_raw_rows": true,
+    "concurrency_and_e2e_run_rows": true,
+    "published_aggregate_results": true
+  },
+  "result_provenance": "results/RESULTS_MANIFEST.json"
+}
